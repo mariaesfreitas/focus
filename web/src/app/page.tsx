@@ -2,7 +2,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import logo from '../../public/images/focus-logo.png';
 import lawyer from '../../public/images/lawyer-image.jpg';
-import { Contact, Header, SectionDivision, Specialties } from '@/components';
+import {
+  Contact,
+  DeveloperCredit,
+  Footer,
+  Header,
+  SectionDivision,
+  Specialties,
+} from '@/components';
 
 export default function Home() {
   return (
@@ -46,6 +53,8 @@ export default function Home() {
       <Specialties />
       <SectionDivision title={'Contato'} />
       <Contact />
+      <Footer />
+      <DeveloperCredit />
     </main>
   );
 }
