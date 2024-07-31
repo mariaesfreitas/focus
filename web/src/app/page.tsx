@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import logo from '../../public/images/focus-logo.png';
 import lawyer from '../../public/images/lawyer-image.jpg';
-import { Header, SectionDivision } from '@/components';
+import { Header, SectionDivision, Specialties } from '@/components';
 
 export default function Home() {
   return (
@@ -42,6 +42,8 @@ export default function Home() {
           interesses.
         </p>
       </section>
+      <SectionDivision title={'Nossas especialidades'} />
+      <Specialties />
     </main>
   );
 }
