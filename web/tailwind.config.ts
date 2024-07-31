@@ -18,6 +18,9 @@ const config: Config = {
       backgroundImage: {
         background: "url('/images/background-image.png')",
       },
+      colors: {
+        customGold: '#B89B5E',
+      },
     },
   },
   plugins: [],

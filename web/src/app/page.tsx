@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import logo from '../../public/images/focus-logo.png';
-import { Header } from '@/components';
+import { Header, SectionDivision } from '@/components';
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
           </p>
         </button>
       </section>
+      <SectionDivision title={'Quem somos'} />
     </main>
   );
 }
