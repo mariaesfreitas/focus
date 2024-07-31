@@ -15,6 +15,9 @@ const config: Config = {
         '400': '400',
         '700': '700',
       },
+      backgroundImage: {
+        background: "url('/images/background-image.png')",
+      },
     },
   },
   plugins: [],
