@@ -44,9 +44,9 @@ export function Header() {
         </div>
       )}
 
-      <button className="flex items-center bg-yellow-200 py-4 px-6 gap-3 h-auto">
-        <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8 text-cyan-950" />
-        <p className="hidden lg:flex text-cyan-900 text-center text-lg font-bold uppercase">
+      <button className="flex items-center bg-customGold py-4 px-6 gap-3 h-auto">
+        <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8 text-white" />
+        <p className="hidden lg:flex text-white text-center text-lg font-bold uppercase">
           Fale conosco
         </p>
       </button>

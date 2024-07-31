@@ -10,7 +10,7 @@ export function MenuItem({ href, title }: MenuItemProps) {
       className="text-center text-white font-bold text-xl relative group"
     >
       {title}
-      <span className="absolute left-1/2 bottom-[-4px] w-[120%] h-[2px] bg-yellow-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2"></span>
+      <span className="absolute left-1/2 bottom-[-4px] w-[120%] h-[2px] bg-customGold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-1/2"></span>
     </a>
   );
 }
