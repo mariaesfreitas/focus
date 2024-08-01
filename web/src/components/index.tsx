@@ -7,3 +7,4 @@ export * from './Contact';
 export * from './Input';
 export * from './Footer';
 export * from './DeveloperCredit';
+export * from './InformationsRange';
