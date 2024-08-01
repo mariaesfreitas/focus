@@ -1,7 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import logo from '../../public/images/focus-logo.png';
-import lawyer from '../../public/images/lawyer-image.jpg';
 import {
   Contact,
   DeveloperCredit,
@@ -15,7 +13,11 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <Header />
-      <img src={logo.src} alt="Logo Focus Consultoria" className="mt-4" />
+      <img
+        src="/images/focus-logo.png"
+        alt="Logo Focus Consultoria"
+        className="mt-4"
+      />
       <section className="w-full mt-6 p-12 bg-background bg-cover">
         <h1 className="text-cyan-950 text-2xl font-bold">
           Se você estiver com algum problema legal em sua vida...
@@ -36,7 +38,7 @@ export default function Home() {
         className="flex items-center mt-12 bg-customGold w-full"
       >
         <img
-          src={lawyer.src}
+          src="/images/lawyer-image.jpg"
           alt="Aperto de mão entre advogados"
           className="hidden lg:flex w-1/2 h-auto"
         />
