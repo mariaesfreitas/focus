@@ -10,6 +10,9 @@ export function Footer() {
           Quem somos
         </a>
         <a href="" className="text-white font-base">
+          Especialidades
+        </a>
+        <a href="" className="text-white font-base">
           Contato
         </a>
       </div>

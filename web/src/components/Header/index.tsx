@@ -24,9 +24,8 @@ export function Header() {
       <div className="hidden lg:flex flex-col items-center lg:flex-row gap-16 justify-center flex-grow m-10">
         <MenuItem href="#" title="Home" />
         <MenuItem href="#" title="Quem somos" />
-        <MenuItem href="#" title="Áreas de atuação" />
+        <MenuItem href="#" title="Especialidades" />
         <MenuItem href="#" title="Contato" />
-        <MenuItem href="#" title="Blog" />
       </div>
 
       {menuOpen && (
@@ -37,9 +36,8 @@ export function Header() {
           <div className="flex flex-col items-center justify-center h-full space-y-6">
             <MenuItem href="#" title="Home" />
             <MenuItem href="#" title="Quem somos" />
-            <MenuItem href="#" title="Áreas de atuação" />
+            <MenuItem href="#" title="Especialidades" />
             <MenuItem href="#" title="Contato" />
-            <MenuItem href="#" title="Blog" />
           </div>
         </div>
       )}
