@@ -1,10 +1,13 @@
 'use client';
+import { useState } from 'react';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FormProvider, useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { contactSchema } from '@/utils';
 import { Input } from '../Input';
+import api from '@/services/api';
+import { SuccessModal } from '../SuccessModal';
 
 interface IFormInput {
   name: string;
@@ -13,6 +16,7 @@ interface IFormInput {
 }
 
 export function Contact() {
+  const [isModalOpen, setModalOpen] = useState(false);
   const methods = useForm<IFormInput>({
     resolver: yupResolver(contactSchema),
     defaultValues: {
@@ -29,11 +33,28 @@ export function Contact() {
   } = methods;
 
   const onSubmit = (data: IFormInput) => {
-    console.log(data);
+    const payload = {
+      name: data.name,
+      email: data.email,
+      phone: data.phone,
+    };
+    api
+      .post('/send', payload)
+      .then(function (response) {
+        setModalOpen(true);
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+        alert(
+          'Erro ao enviar o e-mail. Por favor, tente novamente mais tarde.',
+        );
+      });
   };
 
   return (
     <section className="w-full">
+      {isModalOpen && <SuccessModal setModalOpen={setModalOpen} />}
       <div className="flex flex-col gap-12 md:flex-row justify-between mt-12 w-full bg-cyan-950 py-12 px-24">
         <div className="flex items-center justify-center flex-col">
           <FontAwesomeIcon

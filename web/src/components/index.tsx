@@ -9,3 +9,4 @@ export * from './Footer';
 export * from './DeveloperCredit';
 export * from './InformationsRange';
 export * from './SpecialtiesCarousel';
+export * from './SuccessModal';
