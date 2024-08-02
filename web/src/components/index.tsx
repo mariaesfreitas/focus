@@ -10,3 +10,4 @@ export * from './DeveloperCredit';
 export * from './InformationsRange';
 export * from './SpecialtiesCarousel';
 export * from './SuccessModal';
+export * from './WhatsappButton';

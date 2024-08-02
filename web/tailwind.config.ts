@@ -18,6 +18,8 @@ const config: Config = {
       backgroundImage: {
         background: "url('/images/background-image.png')",
         backgroundRange: "url('/images/background-range.png')",
+        backgroundCar: "url('/images/background-car.jpg')",
+        backgroundCarBroken: "url('/images/background-car-broken.jpg')",
       },
       colors: {
         customGold: '#B89B5E',
