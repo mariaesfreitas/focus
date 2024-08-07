@@ -12,6 +12,13 @@ export function Header() {
     setMenuOpen(!menuOpen);
   };
 
+  function handleButtonClick() {
+    window.open(
+      'https://api.whatsapp.com/send?phone=554232237728&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20Focus%20Consultoria.%20Gostaria%20de%20falar%20com%20um%20especialista.',
+      '_blank',
+    );
+  }
+
   return (
     <header className="flex flex-row justify-between w-full h-24 bg-cyan-950">
       <button
@@ -22,10 +29,10 @@ export function Header() {
       </button>
 
       <div className="hidden lg:flex flex-col items-center lg:flex-row gap-16 justify-center flex-grow m-10">
-        <MenuItem href="#" title="Home" />
-        <MenuItem href="#" title="Quem somos" />
-        <MenuItem href="#" title="Especialidades" />
-        <MenuItem href="#" title="Contato" />
+        <MenuItem href="#home" title="Home" />
+        <MenuItem href="#quem-somos" title="Quem somos" />
+        <MenuItem href="#especialidades" title="Especialidades" />
+        <MenuItem href="#contato" title="Contato" />
       </div>
 
       {menuOpen && (
@@ -42,7 +49,10 @@ export function Header() {
         </div>
       )}
 
-      <button className="flex items-center bg-customGold py-4 px-6 gap-3 h-auto">
+      <button
+        onClick={handleButtonClick}
+        className="flex items-center bg-customGold py-4 px-6 gap-3 h-auto"
+      >
         <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8 text-white" />
         <p className="hidden lg:flex text-white text-center text-lg font-bold uppercase">
           Fale conosco

@@ -3,11 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export function WhatsappButton() {
   return (
-    <button className="flex items-center gap-2 bg-customGold p-3">
-      <FontAwesomeIcon icon={faWhatsapp} className="text-white" />
-      <p className="text-white font-medium text-xl">
-        Seja atendido via Whatsapp
-      </p>
-    </button>
+    <a
+      href="https://api.whatsapp.com/send?phone=554232237728&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20Focus%20Consultoria.%20Gostaria%20de%20falar%20com%20um%20especialista."
+      target="blank"
+    >
+      <button className="flex items-center gap-2 bg-customGold p-3">
+        <FontAwesomeIcon icon={faWhatsapp} className="text-white" />
+        <p className="text-white font-medium text-xl">
+          Seja atendido via Whatsapp
+        </p>
+      </button>
+    </a>
   );
 }

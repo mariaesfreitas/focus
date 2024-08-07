@@ -53,7 +53,7 @@ export function Contact() {
   };
 
   return (
-    <section className="w-full">
+    <section id="contato" className="w-full">
       {isModalOpen && <SuccessModal setModalOpen={setModalOpen} />}
       <div className="flex flex-col gap-12 md:flex-row justify-between mt-12 w-full bg-cyan-950 py-12 px-24">
         <div className="flex items-center justify-center flex-col">
