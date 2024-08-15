@@ -8,9 +8,9 @@ export function WhatsappButton() {
       target="blank"
     >
       <button className="flex items-center gap-2 bg-customGold p-3">
-        <FontAwesomeIcon icon={faWhatsapp} className="text-white" />
-        <p className="text-white font-medium text-xl">
-          Seja atendido via Whatsapp
+        <FontAwesomeIcon icon={faWhatsapp} className="text-white w-8 h-8" />
+        <p className="text-white font-medium">
+          Fale com um especialista por WhatsApp.
         </p>
       </button>
     </a>

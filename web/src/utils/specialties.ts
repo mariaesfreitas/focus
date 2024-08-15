@@ -3,36 +3,36 @@ export const specialtiesJson = [
     slug: 'credito',
     titulo: 'Cobrança e recuperação de crédito',
     descricao:
-      'Esta área do direito lida com a cobrança de dívidas e a recuperação de créditos para empresas e indivíduos. Envolve procedimentos judiciais e extrajudiciais para garantir que os credores recebam o que lhes é devido. Os advogados especializados nesta área trabalham na negociação de acordos, elaboração de notificações de cobrança, ações de execução e outras medidas legais para recuperação de valores.',
+      'A inadimplência pode comprometer seriamente a saúde financeira de qualquer negócio. Nossa equipe de especialistas em recuperação de crédito utiliza tanto medidas extrajudiciais quanto judiciais para assegurar que nossos clientes recebam o que lhes é devido. Com ampla experiência em técnicas de cobrança, reconhecemos e neutralizamos estratégias utilizadas por devedores para ocultar patrimônio, garantindo que seu crédito seja recuperado de forma eficaz e dentro dos limites legais.',
   },
   {
     slug: 'contratos',
     titulo: 'Contratos empresariais',
     descricao:
-      'Esta área foca na elaboração, revisão e negociação de contratos entre empresas. Abrange uma ampla variedade de contratos comerciais, incluindo acordos de fornecimento, parcerias, contratos de prestação de serviços, franquias, entre outros. Advogados especializados em contratos empresariais garantem que os termos dos contratos protejam os interesses de seus clientes e estejam em conformidade com as leis aplicáveis.',
+      'No mundo dos negócios, contratos bem elaborados são a base para relações comerciais seguras e duradouras. Oferecemos uma abordagem minuciosa na redação, revisão e negociação de contratos empresariais, sempre visando proteger os interesses de nossos clientes. Com conhecimento profundo das sutilezas legais, garantimos que cada cláusula seja precisa e conforme as regulamentações vigentes, minimizando riscos e prevenindo litígios futuros.',
   },
   {
     slug: 'bancario',
     titulo: 'Bancário',
     descricao:
-      'O direito bancário regula as atividades das instituições financeiras e as transações bancárias. Inclui a assessoria jurídica em questões como empréstimos, financiamentos, garantias, investimentos, e a conformidade com as regulamentações financeiras. Advogados nesta área ajudam a resolver disputas bancárias, assessoram em operações financeiras complexas e garantem que as práticas bancárias estejam em conformidade com a legislação.',
+      'Operar no setor financeiro exige um conhecimento especializado das complexas regulamentações que governam as transações bancárias. Prestamos assessoria jurídica completa para instituições financeiras e empresas, orientando em operações como empréstimos, financiamentos e investimentos, sempre com foco na conformidade regulatória. Estamos preparados para resolver disputas bancárias e estruturar operações financeiras complexas, garantindo que todas as práticas estejam em conformidade com a legislação aplicável.',
   },
   {
     slug: 'civil',
     titulo: 'Civil',
     descricao:
-      'O direito civil é uma área ampla que cobre uma variedade de questões legais que afetam indivíduos e organizações. Inclui direito de família, sucessões, responsabilidade civil, direitos de propriedade, contratos civis, entre outros. Advogados especializados em direito civil ajudam a resolver disputas entre partes, assessoram na elaboração de documentos legais e garantem a proteção dos direitos civis de seus clientes.',
+      'A proteção dos direitos civis é uma prioridade para nossa consultoria. Oferecemos uma abordagem estratégica para resolver disputas e assegurar que os direitos de nossos clientes sejam plenamente respeitados. Atuamos em questões como direito de família, sucessões, responsabilidade civil e contratos civis, sempre com um olhar atento às particularidades de cada caso. Nossa missão é garantir que seus direitos sejam defendidos com eficiência e dedicação, utilizando todos os recursos legais disponíveis.',
   },
   {
     slug: 'empresarial',
     titulo: 'Empresarial',
     descricao:
-      'O direito empresarial envolve a assessoria jurídica para empresas em todas as suas atividades, desde a formação até a dissolução. Inclui a constituição de empresas, governança corporativa, fusões e aquisições, compliance, questões tributárias, e disputas comerciais. Advogados empresariais trabalham para assegurar que as operações empresariais estejam em conformidade com as leis e regulamentações aplicáveis.',
+      'Empresas de todos os portes encontram em nossa consultoria o suporte jurídico necessário para navegar pelas complexidades do mundo empresarial. Desde a constituição de empresas até a resolução de disputas comerciais, oferecemos consultoria completa para assegurar que cada etapa do seu negócio esteja em conformidade com as normas legais. Nosso objetivo é apoiar a sustentabilidade e o crescimento da sua empresa, com serviços que abrangem governança corporativa, compliance, fusões e aquisições, e muito mais.',
   },
   {
     slug: 'imobiliario',
     titulo: 'Imobiliário',
     descricao:
-      'Esta área do direito trata de questões relacionadas a propriedades imobiliárias. Inclui a compra, venda, locação, desenvolvimento, e financiamento de imóveis. Advogados especializados em direito imobiliário ajudam na negociação e elaboração de contratos de compra e venda, escrituras, contratos de locação, e resolução de disputas imobiliárias. Eles também assessoram sobre questões de zoneamento, regulamentações urbanísticas e direitos de propriedade.',
+      'O mercado imobiliário é repleto de desafios que exigem conhecimento especializado e uma abordagem precisa. Auxiliamos nossos clientes em todas as etapas de transações imobiliárias, desde a negociação e elaboração de contratos até a resolução de disputas. Prestamos assessoria jurídica em compra, venda, locação, desenvolvimento e financiamento de imóveis, garantindo que cada transação seja conduzida de forma segura e dentro das conformidades legais. Estamos prontos para proteger seus interesses em cada negociação imobiliária.',
   },
 ];

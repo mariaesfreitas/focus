@@ -1,6 +1,4 @@
 'use client';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import {
   Contact,
   DeveloperCredit,
@@ -11,13 +9,6 @@ import {
 } from '@/components';
 
 export default function Home() {
-  function handleButtonClick() {
-    window.open(
-      'https://api.whatsapp.com/send?phone=554232237728&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20Focus%20Consultoria.%20Gostaria%20de%20falar%20com%20um%20especialista.',
-      '_blank',
-    );
-  }
-
   return (
     <main className="flex flex-col items-center">
       <Header />
@@ -26,24 +17,10 @@ export default function Home() {
         alt="Logo Focus Consultoria"
         className="mt-4"
       />
-      <section id="home" className="w-full mt-6 p-12 bg-background bg-cover">
-        <h1 className="text-cyan-950 text-2xl font-bold">
-          Se você estiver com algum problema legal em sua vida...
-        </h1>
-        <div className="mt-4 inline-flex items-center bg-cyan-950 p-3 rounded-lg">
-          <p className=" text-white font-bold">Nós estamos disponíveis.</p>
-        </div>
-
-        <button
-          onClick={handleButtonClick}
-          className="mt-4 flex items-center bg-cyan-950 py-4 px-6 gap-3 rounded-lg"
-        >
-          <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8 text-white" />
-          <p className="flex text-white text-center text-lg font-bold uppercase">
-            Fale conosco
-          </p>
-        </button>
-      </section>
+      <section
+        id="home"
+        className="w-full mt-6 p-32 bg-background bg-cover"
+      ></section>
       <SectionDivision title={'Quem somos'} />
       <section
         id="quem-somos"

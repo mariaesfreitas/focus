@@ -97,7 +97,7 @@ export function Contact() {
         <h1 className="text-cyan-950 text-3xl ml-4 md:ml-0">
           Vamos agendar uma reunião?{' '}
         </h1>
-        <p className="mt-6 text-cyan-950 text-base w-1/2">
+        <p className="mt-6 text-cyan-950 text-base w-3/4 sm:w-1/2">
           Fale com nossa equipe para isto, deixe suas informações no formulário
           abaixo e entraremos em contato o mais breve possível.
         </p>

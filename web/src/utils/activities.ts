@@ -19,7 +19,7 @@ export const activitiesJson = [
     title2:
       'Está enfrentando problemas com o seu veículo recém-adquirido devido a defeitos ou má qualidade?',
     description:
-      'Atuamos em casos de recuperação de valores para veículos adquiridos com defeitos ou problemas de qualidade.\n Atendemos de forma presencial ou por videoconferência (atuação em todo o Brasil).\n Hoje, com os processos judiciais digitais, é possível a apresentação de defesas em todo o território nacional. Realizamos os procedimentos mais recomendados, de acordo com os últimos entendimentos apresentados pelos Tribunais Superiores.',
+      'Comprar um veículo novo ou usado é um momento de grande expectativa. Entretanto, problemas mecânicos, falhas elétricas, defeitos no sistema de freios ou na suspensão são apenas alguns exemplos de situações que podem transformar o sonho em pesadelo.\n Ainda, ao procurar resolver a situação com o vendedor, os consumidores apenas encontram descaso e incontáveis desculpas, a fim de não resolver a situação.',
     bgImage: 'bg-backgroundCarBroken',
   },
 ];
