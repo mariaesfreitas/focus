@@ -66,23 +66,21 @@ const FinancingPage = () => {
           </span>
           <div className="w-full sm:w-1/2">
             <p className="mt-6 text-slate-900 bold text-left sm:text-justify">
-              Identificada a irregularidade no financiamento, o consumidor
-              poderá optar, por sua livre escolha, entre as seguintes formas de
-              solucionar o problema:
+              Conheça onde estão as irregularidades do seu contrato de
+              financiamento:
             </p>
             <ol className="mt-6" type="1">
               <li className="text-slate-900">
-                1. A restituição imediata dos valores pagos, com o cancelamento
-                do contrato de financiamento;
+                1. Taxas de juros acima da média estabelecida pelo Banco
+                Central;
               </li>
               <li className="text-slate-900">
-                2. A renegociação do contrato para adequar as condições de
-                financiamento às taxas de mercado;
+                2. Venda de seguros sem o consentimento do consumidor;
               </li>
               <li className="text-slate-900">
-                3. O abatimento proporcional dos encargos financeiros cobrados
-                indevidamente.
+                3. Cobrança de tarifas de cadastro e de avaliação;
               </li>
+              <li className="text-slate-900">4. IOF.</li>
             </ol>
           </div>
         </div>
