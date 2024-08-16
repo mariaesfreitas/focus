@@ -3,16 +3,16 @@ export function Footer() {
     <footer className="mt-12 w-full flex flex-col gap-6 md:flex-row justify-between bg-cyan-950 p-8">
       <div className="flex flex-col">
         <h1 className="text-customGold font-bold uppercase">Mapa do Site</h1>
-        <a href="#home" className="text-white font-base">
+        <a href="/" className="text-white font-base">
           Home
         </a>
-        <a href="#quem-somos" className="text-white font-base">
+        <a href="/#quem-somos" className="text-white font-base">
           Quem somos
         </a>
-        <a href="#especialidades" className="text-white font-base">
+        <a href="/#especialidades" className="text-white font-base">
           Especialidades
         </a>
-        <a href="#contato" className="text-white font-base">
+        <a href="/#contato" className="text-white font-base">
           Contato
         </a>
       </div>
@@ -50,10 +50,8 @@ export function Footer() {
         <a href="tel:+554232237728" target="blank">
           <p className="text-white font-base">(42) 3223-7728</p>
         </a>
-        <a href="mailto:focusconsultoriajuridica@gmail.com" target="blank">
-          <p className="text-white font-base">
-            focusconsultoriajuridica@gmail.com
-          </p>
+        <a href="mailto:atendimento@focusconjur.com.br" target="blank">
+          <p className="text-white font-base">atendimento@focusconjur.com.br</p>
         </a>
       </div>
     </footer>

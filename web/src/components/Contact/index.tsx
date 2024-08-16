@@ -55,17 +55,14 @@ export function Contact() {
   return (
     <section id="contato" className="w-full">
       {isModalOpen && <SuccessModal setModalOpen={setModalOpen} />}
-      <div className="flex flex-col gap-12 md:flex-row justify-between mt-12 w-full bg-cyan-950 py-12 px-24">
+      <div className="flex flex-col gap-12 md:gap-44 md:flex-row justify-center mt-12 w-full bg-cyan-950 py-8">
         <div className="flex items-center justify-center flex-col">
           <FontAwesomeIcon
             icon={faEnvelope}
             className="w-12 h-12 text-customGold"
           />
-          <p className="mt-4 text-customGold text-base font-medium">
-            Nos escreva:
-          </p>
-          <p className="text-customGold text-base">
-            focusconsultoriajuridica@gmail.com
+          <p className="mt-3 text-customGold text-base">
+            atendimento@focusconjur.com.br
           </p>
         </div>
         <div className="flex items-center justify-center flex-col">
@@ -73,24 +70,7 @@ export function Contact() {
             icon={faPhone}
             className="w-12 h-12 text-customGold"
           />
-          <p className="mt-4 text-customGold text-base font-medium">
-            Nos ligue:
-          </p>
-          <p className="text-customGold text-base">(42) 3223-7728</p>
-        </div>
-        <div className="flex items-center justify-center flex-col">
-          <FontAwesomeIcon
-            icon={faEnvelope}
-            className="w-12 h-12 text-customGold"
-          />
-          <p className="mt-4 text-customGold text-base font-medium">
-            Nos visite:
-          </p>
-          <p className="text-customGold text-base">
-            Rua Balduíno Taques, 480
-            <br />
-            Ponta Grossa, PR
-          </p>
+          <p className="mt-3 text-customGold text-base">(42) 3223-7728</p>
         </div>
       </div>
       <div className="mt-12 flex flex-col items-center">
