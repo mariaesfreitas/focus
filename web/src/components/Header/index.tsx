@@ -41,10 +41,10 @@ export function Header() {
           onClick={toggleMenu}
         >
           <div className="flex flex-col items-center justify-center h-full space-y-6">
-            <MenuItem href="#" title="Home" />
-            <MenuItem href="#" title="Quem somos" />
-            <MenuItem href="#" title="Especialidades" />
-            <MenuItem href="#" title="Contato" />
+            <MenuItem href="#home" title="Home" />
+            <MenuItem href="#quem-somos" title="Quem somos" />
+            <MenuItem href="#especialidades" title="Especialidades" />
+            <MenuItem href="#contato" title="Contato" />
           </div>
         </div>
       )}
