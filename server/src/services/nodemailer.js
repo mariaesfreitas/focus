@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
 const send = (name, phone, email, message) => {
   transporter.sendMail({
     from: process.env.USER_EMAIL,
-    to: 'focusconsultoriajuridica@gmail.com',
+    to: 'atendimento@focusconjur.com.br',
     subject: 'Um novo formulário foi submetido!',
     html: `
     <h1>Você recebeu um novo formulário!</h1>
