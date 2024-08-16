@@ -4,6 +4,11 @@ import { Contact, Footer, WhatsappButton } from '@/components';
 const FinancingPage = () => {
   return (
     <main className="flex flex-col items-center">
+      <header className="flex items-center justify-center bg-white w-full p-4">
+        <a href="/">
+          <img src="/images/focus-logo.png" alt="" className="h-12" />
+        </a>
+      </header>
       <section className="relative w-full">
         <div
           className={`absolute inset-0 bg-cyan-950 brightness-50 bg-cover z-0`}
