@@ -1,12 +1,20 @@
 'use client';
 import { Contact, Footer, WhatsappButton } from '@/components';
+import Image from 'next/image';
 
 const FinancingPage = () => {
   return (
     <main className="flex flex-col items-center">
       <header className="flex items-center justify-center bg-white w-full p-4">
         <a href="/">
-          <img src="/images/focus-logo.png" alt="" className="h-12" />
+          <Image
+            src="/images/focus-logo.png"
+            alt="Logo Focus Consultoria"
+            width={200}
+            height={200}
+            className="mt-4"
+            priority
+          />
         </a>
       </header>
       <section className="relative w-full">

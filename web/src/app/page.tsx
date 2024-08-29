@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import {
   Contact,
   DeveloperCredit,
@@ -12,10 +13,13 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <Header />
-      <img
+      <Image
         src="/images/focus-logo.png"
         alt="Logo Focus Consultoria"
+        width={200}
+        height={200}
         className="mt-4"
+        priority
       />
       <section
         id="home"
@@ -26,10 +30,13 @@ export default function Home() {
         id="quem-somos"
         className="flex items-center mt-12 bg-customGold w-full"
       >
-        <img
+        <Image
           src="/images/lawyer-image.jpg"
           alt="Aperto de mão entre advogados"
+          width={600}
+          height={450}
           className="hidden lg:flex w-1/2 h-auto"
+          priority
         />
         <p className="text-white text-xl font-medium py-12 px-16">
           Combinamos nossa experiência, especialização e um compromisso sólido
