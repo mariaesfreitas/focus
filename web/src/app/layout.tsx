@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <title>Focus Consultoria</title>
         <meta name="description" content="Focus Consultoria Jurídica" />
       </Head>
