@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3001
 
 app.use(cors({
-  origin: 'https://focusconjur.com.br',
+  origin: 'https://www.focusconjur.com.br',
   optionsSuccessStatus: 200
 }));
 app.use(express.json());
