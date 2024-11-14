@@ -22,7 +22,16 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <title>Focus Consultoria</title>
-        <meta name="description" content="Focus Consultoria Jurídica" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4Z2CJ92B2">
+        </script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-J4Z2CJ92B2');
+         </script>
+         <meta name="description" content="Focus Consultoria Jurídica" />
       </Head>
       <body className={`${inter.className} ${montserrat.className}`}>
         {children}
