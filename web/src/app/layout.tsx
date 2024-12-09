@@ -19,25 +19,26 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="../../public/favicon.ico" type="image/x-icon" />
         <title>Focus Consultoria</title>
         <meta name="description" content="Focus Consultoria Jurídica" />
         <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','G-J4Z2CJ92B2');
-          `,
-          }}
-        />
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16557772849"
+        ></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16557772849');
+          `}
+        </script>
       </head>
       <body className={`${inter.className} ${montserrat.className}`}>
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=G-J4Z2CJ92B2"
+            src="https://www.googletagmanager.com/ns.html?id=AW-16557772849"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
