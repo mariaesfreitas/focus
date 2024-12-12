@@ -47,8 +47,8 @@ export function Footer() {
           Ponta Grossa, PR
         </p>
         <h1 className="mt-6 text-customGold font-bold uppercase">Contato</h1>
-        <a href="tel:+5542999386233" target="blank">
-          <p className="text-white font-base">(42) 99938-6233</p>
+        <a href="tel:+5542998214257" target="blank">
+          <p className="text-white font-base">(42) 99821-4257</p>
         </a>
         <a href="mailto:atendimento@focusconjur.com.br" target="blank">
           <p className="text-white font-base">atendimento@focusconjur.com.br</p>

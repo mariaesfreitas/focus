@@ -17,12 +17,12 @@ export function InformationsRange() {
           </p>
         </a>
         <a
-          href="tel:+5542999386233"
+          href="tel:+5542998214257"
           target="blank"
           className="flex items-center"
         >
           <FontAwesomeIcon icon={faPhone} className="w-4 h-4 text-white ml-2" />
-          <p className="hidden md:flex text-white ml-2">(42) 99938-6233</p>
+          <p className="hidden md:flex text-white ml-2">(42) 99821-4257</p>
         </a>
       </div>
       <div className="flex gap-3">

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export function WhatsappButton() {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=5542999386233&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20Focus%20Consultoria.%20Gostaria%20de%20falar%20com%20um%20especialista."
+      href="https://api.whatsapp.com/send?phone=5542998214257&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20Focus%20Consultoria.%20Gostaria%20de%20falar%20com%20um%20especialista."
       target="blank"
     >
       <button className="flex items-center gap-2 bg-customGold p-3">
