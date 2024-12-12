@@ -70,7 +70,7 @@ export function Contact() {
             icon={faPhone}
             className="w-12 h-12 text-customGold"
           />
-          <p className="mt-3 text-customGold text-base">(42) 3223-7728</p>
+          <p className="mt-3 text-customGold text-base">(42) 99938-6233</p>
         </div>
       </div>
       <div className="mt-12 flex flex-col items-center">

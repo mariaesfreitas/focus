@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import {
   Contact,
-  DeveloperCredit,
   Footer,
   Header,
   SectionDivision,
@@ -52,7 +51,6 @@ export default function Home() {
       <SectionDivision title={'Contato'} />
       <Contact />
       <Footer />
-      <DeveloperCredit />
     </main>
   );
 }
