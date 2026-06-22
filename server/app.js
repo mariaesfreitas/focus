@@ -6,7 +6,12 @@ const routes = require('./src/routes');
 const app = express();
 const port = process.env.PORT || 3001;
 
-const allowedOrigins = ['https://www.focusconjur.com.br', 'https://www.amfadvocacia.adv.br'];
+const allowedOrigins = [
+  'https://www.focusconjur.com.br',
+  'https://www.amfadvocacia.adv.br',
+  'https://www.moraesfrederico.com.br',
+  'https://moraesfrederico.com.br',
+];
 
 app.use(cors({
   origin: function (origin, callback) {
