@@ -1,4 +1,4 @@
-const send = require('../services/nodemailer');
+const send = require('../services/resend');
 
 const sendMail = async (req, res) => {
   const { name, phone, email, message } = req.body;
